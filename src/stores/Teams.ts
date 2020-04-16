@@ -1,6 +1,6 @@
 import {createContext} from 'react';
 import {action, observable, computed} from 'mobx';
-import Axios, {AxiosError, AxiosResponse} from 'axios';
+import Axios, {AxiosResponse} from 'axios';
 import {v4} from 'uuid';
 import {Team} from '../types'
 
